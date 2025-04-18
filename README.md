@@ -1,6 +1,5 @@
 # This repo contains various examples for the published Blogs.
 
-[![Docs](https://img.shields.io/badge/Sphinx-Docs-Green)](https://erdogant.github.io/blogs/)
 [![Issues](https://img.shields.io/github/issues/erdogant/PhotoSenseAI.svg)](https://github.com/erdogant/blogs/issues)
 [![Project Status](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 ![GitHub repo size](https://img.shields.io/github/repo-size/erdogant/blogs)
