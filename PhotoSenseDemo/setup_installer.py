@@ -3,7 +3,6 @@ from cx_Freeze import setup, Executable
 import os
 import shutil
 
-
 #%% Function for cleaning
 def remove_dirs(base_dir, dir_names):
     """
@@ -43,7 +42,7 @@ include_files += [
 
 # Define the build options (include streamlit and other dependencies)
 build_options = {
-    # "packages": ['streamlit_extras'],
+    "packages": ['streamlit_extras'],
     "include_files": include_files
     }
 
@@ -56,10 +55,13 @@ setup(
     executables=[target],
 )
 
-# As a final step, copy
+# Make sure to update <USERNAME> with your actual Windows user name.
+# Copy all files from here:
 source_dir = r'C:\Users\beeld\.conda\envs\env_package_distribution\Lib\site-packages'
-destination_dir = r'./build/exe.win-amd64-3.12/lib'
+# Copy files to here:
+destination_dir = r'D://REPOS/blogs/PhotoSenseDemo/build/exe.win-amd64-3.12/lib'
 print(f"Copy {source_dir} to {destination_dir}..")
+
 # Copy
 shutil.copytree(source_dir, destination_dir, dirs_exist_ok=True)
 # Some cleaning. Remove all directories with dist-info.
