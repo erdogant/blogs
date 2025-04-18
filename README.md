@@ -1,4 +1,4 @@
-# This repo contains various examples based on the written Blogs.
+# This repo contains various examples for the published Blogs.
 
 [![Docs](https://img.shields.io/badge/Sphinx-Docs-Green)](https://erdogant.github.io/blogs/)
 [![Issues](https://img.shields.io/github/issues/erdogant/PhotoSenseAI.svg)](https://github.com/erdogant/blogs/issues)
