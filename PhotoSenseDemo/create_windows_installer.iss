@@ -9,7 +9,7 @@ DefaultGroupName=PhotoSenseDemo
 OutputBaseFilename=PhotoSenseDemo_installer
 Compression=lzma2
 SolidCompression=yes
-OutputDir=D:\PhotoSenseDemo\build\
+OutputDir=D:\REPOS\blogs\PhotoSenseDemo\build
 
 [Files]
 ; Include all files and subdirectories from the build directory
