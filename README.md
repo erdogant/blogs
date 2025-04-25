@@ -5,14 +5,16 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/erdogant/blogs)
 [![Donate](https://img.shields.io/badge/Support%20this%20project-grey.svg?logo=github%20sponsors)](https://erdogant.github.io/PhotoSenseAI/pages/html/Documentation.html#)
 
+---
 
 ### Turn Your Python Scripts Into Fully Functional Stand-Alone Tools.
+* Directory: PhotoSenseDemo
 
 ---
 
 ### Streamlit Stripe Integration
-
-[Medium Blog](https://python.plainenglish.io/walkthrough-on-how-to-integrate-stripe-into-your-streamlit-application-7874dbef7887)
+* Directory: streamlit-stripe
+* [Medium Blog](https://python.plainenglish.io/walkthrough-on-how-to-integrate-stripe-into-your-streamlit-application-7874dbef7887)
 
 ---
 
