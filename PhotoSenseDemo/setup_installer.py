@@ -4,7 +4,7 @@ import os
 import shutil
 
 #%% Function for cleaning
-def remove_dirs(base_dir, dir_names):
+def clean_libraries(base_dir, dir_names):
     """
     Removes all directories matching the given names recursively from base_dir.
 
@@ -65,4 +65,4 @@ print(f"Copy {source_dir} to {destination_dir}..")
 # Copy
 shutil.copytree(source_dir, destination_dir, dirs_exist_ok=True)
 # Some cleaning. Remove all directories with dist-info.
-remove_dirs(destination_dir, ["__pycache__", "dist-info", "tests"])
+clean_libraries(destination_dir, ["__pycache__", "dist-info", "tests"])
