@@ -8,12 +8,12 @@
 ---
 
 ### Turn Your Python Scripts Into Fully Functional Stand-Alone Tools.
-* Directory: PhotoSenseDemo
+* Directory:  [PhotoSenseDemo](https://github.com/erdogant/blogs/tree/main/PhotoSenseDemo)
 
 ---
 
 ### Streamlit Stripe Integration
-* Directory: streamlit-stripe
+* Directory: [streamlit-stripe](https://github.com/erdogant/blogs/tree/main/streamlit-stripe)
 * [Medium Blog](https://python.plainenglish.io/walkthrough-on-how-to-integrate-stripe-into-your-streamlit-application-7874dbef7887)
 
 ---
